@@ -108,31 +108,7 @@ GRANT ALL PRIVILEGES ON DATABASE usermanagementdb TO postgres;
 exit
 ```
 
-### Step 7: Install Git
-
-```bash
-sudo apt install git -y
-git --version  # Verify installation
-```
-
 ---
-
-## 📦 Project Setup
-
-### Download and Extract Project Files
-
-1. Download all 3 zip files provided
-2. Extract them to create the complete project structure
-3. You should have this structure:
-
-```
-user-management-app/
-├── backend/
-├── frontend/
-├── database/
-├── .gitignore
-└── README.md
-```
 
 ---
 
@@ -303,18 +279,7 @@ You should see your registered user and all activity logs.
 
 ---
 
-## 🐛 Troubleshooting
 
-### Backend Issues
-
-**Problem: Port 8080 already in use**
-```bash
-# Find process using port 8080
-sudo lsof -i :8080
-
-# Kill the process
-sudo kill -9 <PID>
-```
 
 **Problem: Database connection failed**
 - Verify PostgreSQL is running: `sudo systemctl status postgresql`
@@ -490,15 +455,6 @@ user-management-app/
 
 ---
 
-## 🔐 Security Features
-
-- **Password Encryption**: BCrypt hashing with salt
-- **CORS Configuration**: Configured for local development
-- **Input Validation**: Server-side validation for all inputs
-- **Activity Logging**: All authentication events are logged
-- **Session Management**: Client-side session with localStorage
-
----
 
 ## 📝 Development Notes
 
