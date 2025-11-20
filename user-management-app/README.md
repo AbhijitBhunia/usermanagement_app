@@ -44,7 +44,7 @@ Before you begin, ensure you have the following installed on your Ubuntu VM:
 2. **Maven 3.8+**
 3. **Node.js 18+** and **npm 9+**
 4. **PostgreSQL 15+**
-5. **Git** (for version control)
+
 
 ---
 
